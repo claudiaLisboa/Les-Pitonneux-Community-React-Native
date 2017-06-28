@@ -1,0 +1,27 @@
+{
+  "images" : [
+    {
+      "resizing" : {
+        "mode" : "9-part",
+        "center" : {
+          "mode" : "tile",
+          "width" : 1,
+          "height" : 1
+        },
+        "cap-insets" : {
+          "bottom" : 200,
+          "top" : 199,
+          "right" : 300,
+          "left" : 299
+        }
+      },
+      "idiom" : "universal",
+      "filename" : "Background_LesPitonneux.jpg",
+      "scale" : "1x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}
