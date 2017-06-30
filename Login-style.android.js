@@ -25,8 +25,8 @@ export default StyleSheet.create({
         //flex:1,
         resizeMode:'center', // 'center' or 'contain'
         alignSelf:'center',
-        // height:250,
-        // width:250,
+         height:200,
+         width:200,
         //borderWidth:2,
     },
 
