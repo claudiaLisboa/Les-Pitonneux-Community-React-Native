@@ -41,23 +41,23 @@ export default StyleSheet.create({
     },
 
     buttonGmail:{
-        //flex:1,
-        resizeMode:'center', // 'center' or 'contain'
-        // alignSelf:'center',
-        // flexDirection:'column',
-        // justifyContent: 'flex-end',
-        // height:250,
-        // width:250,
-        //borderWidth:2,
+      flex:1,
+      resizeMode:'center', // 'center' or 'contain'
+      //alignSelf:'center',
+      /*flexDirection:'column',
+      justifyContent: 'flex-end',*/
+      height:200,
+      width:200,
+      borderWidth:2,
     },
     buttonSlack:{
-        //flex:1,
-        resizeMode:'center', // 'center' or 'contain'
-        // alignSelf:'center',
-        // flexDirection:'column', 
-        // justifyContent: 'flex-end',
-        // height:250,
-        // width:250,
-        //borderWidth:2,
+       flex:1,
+       resizeMode:'center', // 'center' or 'contain'
+       //alignSelf:'center',
+   /*    flexDirection:'column',
+       justifyContent: 'flex-end',*/
+       height:200,
+       width:200,
+       borderWidth:2,
     }
 })
