@@ -1,0 +1,6 @@
+framework module Pods_LesPitonneuxCommunityTests {
+  umbrella header "Pods-LesPitonneuxCommunityTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -4,30 +4,35 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>LesPitonneuxCommunity.xcscheme_^#shared#^_</key>
+		<key>DCTAuth.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>0</integer>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-LesPitonneuxCommunity.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-LesPitonneuxCommunityTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>00E356ED1AD99517003FC87E</key>
+		<key>073CE0154758777B2E46C5CBFE578C54</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>13B07F861A680F5B00A75B9A</key>
+		<key>7D61D49F33A7456EA859B2963CCBBD9E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2D02E47A1E0B4A5D006451C7</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>2D02E48F1E0B4A5D006451C7</key>
+		<key>E3F1F05D1107C599E86AEE73A35601E1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
