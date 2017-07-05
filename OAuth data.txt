@@ -1,0 +1,25 @@
+********************
+Google
+********************
+
+----------
+OAuth Client ID
+----------
+
++ iOS
+- Name:
+Les Pitonneux Community App
+- Bundle ID:
+com.lespitonneux.LesPitonneuxCommunity
+- App Stored ID:
+(blank)
+- Team ID:
+(blank)
+- Creation date:
+4 Jul 2017, 22:21:11
+- Client ID:
+385453512743-ffbfi7un3623a2307o6mgil0s2qq8qq2.apps.googleusercontent.com
+- iOS URL scheme:
+com.googleusercontent.apps.385453512743-ffbfi7un3623a2307o6mgil0s2qq8qq2
+
++ Android

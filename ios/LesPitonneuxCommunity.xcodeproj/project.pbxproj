@@ -1138,6 +1138,7 @@
 					"-ObjC",
 					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lespitonneux.LesPitonneuxCommunity;
 				PRODUCT_NAME = LesPitonneuxCommunity;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -1165,6 +1166,7 @@
 					"-ObjC",
 					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lespitonneux.LesPitonneuxCommunity;
 				PRODUCT_NAME = LesPitonneuxCommunity;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
