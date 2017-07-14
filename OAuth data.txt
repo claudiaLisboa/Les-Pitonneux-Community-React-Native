@@ -23,3 +23,16 @@ com.lespitonneux.LesPitonneuxCommunity
 com.googleusercontent.apps.385453512743-ffbfi7un3623a2307o6mgil0s2qq8qq2
 
 + Android
+
+********************
+Facebook
+********************
++ iOS
+- API version
+v2.9
+- Name:
+Les Pitonneux Community App
+- App ID
+457948904564118
+- App Secret
+ca0266d0f1813178bbf6365974500e14

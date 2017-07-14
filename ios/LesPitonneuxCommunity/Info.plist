@@ -27,6 +27,10 @@
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
 			<string>Google</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.385453512743-ffbfi7un3623a2307o6mgil0s2qq8qq2</string>
+			</array>
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>

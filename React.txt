@@ -1,0 +1,11 @@
+ES6
+1) String Templating
+2) let/const
+3) arrow functions
+4) classes
+
+
+===================
+
+
+<script type="text/babel"></script>

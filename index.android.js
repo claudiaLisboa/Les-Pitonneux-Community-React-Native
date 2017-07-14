@@ -13,6 +13,10 @@ import {
 } from 'react-native';
 var Login = require('./Login');
 
+import App from './src/app';
+
+AppRegistry.registerComponent('LesPitonneuxCommunity', () => App);
+
 var displayLogin = React.createClass({
     render: function(){
       return(
