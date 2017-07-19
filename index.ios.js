@@ -12,11 +12,9 @@ import {
   View
 } from 'react-native';
 
-import App from './src/app';
+import Login from './src/Login';
 
-AppRegistry.registerComponent('LesPitonneuxCommunity', () => App);
-
-var Login = require('./Login');
+/* var Login = require('./Login');
 
 var displayLogin = React.createClass({
     render: function(){
@@ -34,4 +32,6 @@ export default class LesPitonneuxCommunity extends Component {
   }
 }
  
-AppRegistry.registerComponent('LesPitonneuxCommunity', () => LesPitonneuxCommunity);
+AppRegistry.registerComponent('LesPitonneuxCommunity', () => LesPitonneuxCommunity); */
+
+AppRegistry.registerComponent('LesPitonneuxCommunity', () => Login);

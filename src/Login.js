@@ -11,8 +11,7 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 import SafariView from 'react-native-safari-view';
 import { Button } from 'react-native-elements';
 
-export default class App extends Component {
-
+export default class Login extends Component {
   state = {
     user: undefined, // user has not logged in yet
   };
@@ -88,8 +87,9 @@ export default class App extends Component {
   render() {
     const { user } = this.state;
     return (
-      <View style={styles.container}>
-        { user
+      <Image source={require('./../img/Background_LesPitonneux.jpg')} style={styles.container}>
+        {/*<View style={styles.container}>*/} 
+        { /* user
           ? // Show user info if already logged in
             <View style={styles.content}>
               <Text style={styles.header}>
@@ -112,27 +112,32 @@ export default class App extends Component {
                 to the awesomness
               </Text>
             </View>
+            */
         }
+        {/* Les Pitonneux logo */}
+        <Image style={styles.loggreen} source={require('./../img/Logo_vertPitonneux.png')}/>
         {/* Login buttons */}
-        <View style={styles.buttons}>
-          <Icon.Button
-            name="facebook"
-            backgroundColor="#3b5998"
-            onPress={this.loginWithFacebook}
-            {...iconStyles}
-          >
-            Login with Facebook
-          </Icon.Button>
-          <Icon.Button
-            name="google"
-            backgroundColor="#DD4B39"
-            onPress={this.loginWithGoogle}
-            {...iconStyles}
-          >
-            Login with Google
-          </Icon.Button>
-        </View>
-      </View>
+        {/*<View style={styles.container}>*/}
+          <View style={styles.buttons}>
+            <Icon.Button
+              name="facebook"
+              backgroundColor="#3b5998"
+              onPress={this.loginWithFacebook}
+              {...iconStyles}
+            >
+              Login with Facebook
+            </Icon.Button>
+            <Icon.Button
+              name="google"
+              backgroundColor="#DD4B39"
+              onPress={this.loginWithGoogle}
+              {...iconStyles}
+            >
+              Login with Google
+            </Icon.Button>
+          </View>
+        {/*</View>*/}
+      </Image>
     );
   }
 }
@@ -146,9 +151,13 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#FFF',
+    // remove width and height to override fixed static size
+    width: null,
+    height: null,
   },
   content: {
     flex: 1,
+    backgroundColor: 'rgba(52, 52, 52, 1.0)',
     justifyContent: 'center',
     alignItems: 'center',
   },
@@ -175,5 +184,15 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     margin: 20,
     marginBottom: 30,
+  },
+  loggreen:{
+    //flex:1,
+    resizeMode:'center', // 'center' or 'contain'
+    alignSelf:'center',
+    // height:250,
+    // width:250,
+    height:200,
+    width:200,
+    //borderWidth:2,
   },
 });
