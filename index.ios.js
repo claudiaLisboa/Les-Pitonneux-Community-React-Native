@@ -13,6 +13,8 @@ import {
 } from 'react-native';
 
 import Login from './src/Login';
+import Profile2 from './src/component/Profile2';
+import PitonneuxView from './src/component/PitonneuxView';
 
 /* var Login = require('./Login');
 
@@ -30,8 +32,9 @@ export default class LesPitonneuxCommunity extends Component {
           <Login/>
     );
   }
-}
+}*/
  
-AppRegistry.registerComponent('LesPitonneuxCommunity', () => LesPitonneuxCommunity); */
+// AppRegistry.registerComponent('LesPitonneuxCommunity', () => Profile2); 
 
-AppRegistry.registerComponent('LesPitonneuxCommunity', () => Login);
+//AppRegistry.registerComponent('LesPitonneuxCommunity', () => Login);
+AppRegistry.registerComponent('LesPitonneuxCommunity', () => PitonneuxView);
